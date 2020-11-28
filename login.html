@@ -1,38 +1,53 @@
 <!DOCTYPE html>
-<html lang=en>
 <head>
-	
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>DHP Internal | Login</title>
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway">
-	<link rel="stylesheet"  href="style.css">
-
-</head>
-<body>
-	<section>
-		<div class="form-container">
-			<h1>Delta Hand Pies</h1>
-			<form action="#">
-				<div class="control">
-					<i class="fa fa-user fa-2x" aria-hidden="true"></i>
-			 		<input type="text" name="uname" value="" placeholder="Enter Username">
-					<i class="fa fa-lock fa-2x" aria-hidden="true"></i>
-					<input type="password" name="pws"  value="" placeholder="Enter Password">
-				</div>
-				<span><input type="checkbox">Remember me</span>
-				<div class="control">
-					<button type="button" onclick="location.href='index.html'">Login</button>
-				</div>
-			</form>
-			<div class="link">
-				<a href="#">Forgot Password?</a>
-			</div>
-		
-		</div>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link rel="stylesheet" href="content.css">
+	<link rel="stylesheet" href="login.css">
 	
-	</section>
+</head>
 
+<style>
+	@media print {
+ #ghostery-purple-box {
+  display:none !important
+ }
+}
+
+</style>
+<body data-new-gr-c-s-check-loaded="8.867.0">
+	<div class="login">
+		<h2>Delta Hand Pies</h2>
+		<form class="login-form" action="">
+		<div class="login-input-group">
+			<label for="uname"><b>Username</b>
+			</label>
+		<div class="input-group">
+			<i class="fas fa-user"></i>
+			<input type="password" placeholder="Enter Password" name="pwd" data-nlok-ref-guid="1d444107-e52b-4fb7-ce84-b0be5b06e36a">
+			<div id="norton-idsafe-field-styling-divId" style="height:29.818181818181817px;max-width:29.818181818181817px;vertical-align:top; position:absolute; top:5.590909090909092px;left:478.24633431085044px;cursor:pointer;resize: both;z-index:2147483646;">
+			<img id="norton-idsafe-field-logo-imgId" src="moz-extension://19e55727-64e4-4a51-92d9-d4a9996c8692/content/images/ic-field-logo.svg" style="height:29.818181818181817px; max-width:29.818181818181817px;">
+			</div>
+		</div>
+		<label for="pwd"><b>Password</b></label>
+		<div class="input-group">
+			<i class="fas fa-key">
+			
+			</i>
+		<input type="password" placeholder="Enter Password" name="pwd" data-nlok-ref-guid="2e53af76-a5a7-4be8-ee3b-245dd8704437">
+		<div id="norton-idsafe-field-styling-divId" style="height:29.818181818181817px;max-width:29.818181818181817px;vertical-align:top; position:absolute; top:5.590909090909092px;left:478.24633431085044px;cursor:pointer;resize: both;z-index:2147483646;">
+		<img id="norton-idsafe-field-logo-imgId" src="moz-extension://19e55727-64e4-4a51-92d9-d4a9996c8692/content/images/ic-field-logo.svg" style="height:29.818181818181817px; max-width:29.818181818181817px;">
+		</div>
+		</div>
+		<input type="checkbox" name="remember">
+		<span>Remember me</span>
+		</div>
+		<button class="btn-submit" type="button"  onclick="location.href='index.html'">Login
+		</button>
+		
+		</form>
+	</div>
 </body>
 
 </html>

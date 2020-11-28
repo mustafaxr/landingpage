@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Raleway, Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.content {
+    padding: 30px 0;
+}
+
+.content-heading {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 20px 0;
+    
+}
+.btn {
+    padding: 10px 15px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+}
+.btn-primary {
+    background: #007bff;
+}
+
+.btn-success {
+    background: #28a745;
+
+}
+
+.btn-danger {
+    background: #bd2130;
+}
+
+.btn-warning {
+    background: #d39e00;
+}
+
+.btn-inform {
+    background: #333;
+}
+
+.btn-primary a, .btn-primary a:hover, .btn-primary a:visited, .btn-success a, .btn-success a:hover, .btn-success a:visited, .btn-danger a, .btn-danger a:hover, .btn-danger a:visited, .btn-warning a, .btn-warning a:hover, .btn-warning a:visited  {
+    color: #fff;
+}
+
